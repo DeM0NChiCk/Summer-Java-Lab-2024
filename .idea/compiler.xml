@@ -10,6 +10,7 @@
         <module name="api-gateway" />
         <module name="car-shop-service" />
         <module name="car-manufacturer-service" />
+        <module name="catalog-car-shop" />
         <module name="dealership-service" />
         <module name="service-discovery" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="api-gateway" options="-parameters" />
       <module name="car-manufacturer-service" options="-parameters" />
       <module name="car-shop-service" options="-parameters" />
+      <module name="catalog-car-shop" options="-parameters" />
       <module name="dealership-service" options="-parameters" />
       <module name="service-discovery" options="-parameters" />
       <module name="test" options="-parameters" />

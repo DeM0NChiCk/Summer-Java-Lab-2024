@@ -13,4 +13,5 @@ public class DealershipDto {
     private Long id;
     private String title;
     private String city;
+    private String country;
 }

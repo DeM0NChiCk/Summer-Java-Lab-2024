@@ -1,5 +1,6 @@
 package ru.itis.CMService.dto;
 
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +13,8 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class CarShopDto {
+    @Column(name = "carManuf")
     private List<CarManufDto> carManuf;
+    @Column(name = "dealership")
     private List<DealershipDto> dealership;
 }

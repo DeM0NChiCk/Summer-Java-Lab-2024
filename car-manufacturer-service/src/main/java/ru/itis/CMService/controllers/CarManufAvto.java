@@ -20,8 +20,8 @@ public class CarManufAvto {
         log.info("Get response for car manufacturer");
         return ResponseEntity.ok(Arrays.asList(
                 CarManufDto.builder().id(1L).country("China").title("Jack").build(),
-                CarManufDto.builder().id(2L).country("Rassia").title("LADA").build(),
-                CarManufDto.builder().id(3L).country("Japan").title("Toyta").build(),
+                CarManufDto.builder().id(2L).country("Russia").title("LADA").build(),
+                CarManufDto.builder().id(3L).country("Japan").title("Toyota").build(),
                 CarManufDto.builder().id(4L).country("Germany").title("BMW").build(),
                 CarManufDto.builder().id(5L).country("Germany").title("Mercedes-Benz").build(),
                 CarManufDto.builder().id(6L).country("Italy").title("Lamborghini").build()

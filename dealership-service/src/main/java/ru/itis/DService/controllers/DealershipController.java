@@ -18,12 +18,12 @@ public class DealershipController {
     public ResponseEntity<List<DealershipDto>> getDealership() {
         log.info("Get response for dealership");
         return ResponseEntity.ok(Arrays.asList(
-                DealershipDto.builder().title("AziaAvto").city("Kazan").id(1L).build(),
-                DealershipDto.builder().title("RusAvto").city("Tolyatti").id(2L).build(),
-                DealershipDto.builder().title("BMWAvto").city("Moscow").id(3L).build(),
-                DealershipDto.builder().title("Mercedes-BenzAvto").city("Moscow").id(4L).build(),
-                DealershipDto.builder().title("ToyotaAvto").city("Vladivostok").id(5L).build(),
-                DealershipDto.builder().title("PremAvtoAvto").city("Kazan").id(6L).build()
+                DealershipDto.builder().country("China").title("AziaAvto").city("Kazan").id(1L).build(),
+                DealershipDto.builder().country("Russia").title("RusAvto").city("Tolyatti").id(2L).build(),
+                DealershipDto.builder().country("Germany").title("BMWAvto").city("Moscow").id(3L).build(),
+                DealershipDto.builder().country("Germany").title("Mercedes-BenzAvto").city("Moscow").id(4L).build(),
+                DealershipDto.builder().country("Japan").title("ToyotaAvto").city("Vladivostok").id(5L).build(),
+                DealershipDto.builder().country("Italy").title("PremAvtoAvto").city("Kazan").id(6L).build()
         ));
     }
 }
